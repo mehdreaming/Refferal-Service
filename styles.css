@@ -3,11 +3,12 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
-    background: linear-gradient(135deg, #ff007f, #ffb400);
+    background: linear-gradient(135deg, #000000, #ff007f); /* Black and Pink Gradient */
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    color: white; /* Text color set to white */
 }
 
 .container {
@@ -18,7 +19,7 @@ body {
 
 /* Header */
 header {
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(255, 255, 255, 0.1);
     padding: 20px;
     border-radius: 20px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
@@ -28,18 +29,18 @@ header {
 .site-title {
     font-size: 36px;
     font-weight: 600;
-    color: #333;
+    color: white; /* White text */
 }
 
 .tagline {
     font-size: 18px;
     font-weight: 300;
-    color: #777;
+    color: white; /* White text */
 }
 
 /* Main Content */
 .main-content {
-    background: rgba(255, 255, 255, 0.9);
+    background: rgba(255, 255, 255, 0.1); /* Slightly transparent white */
     padding: 40px;
     border-radius: 20px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
@@ -48,14 +49,14 @@ header {
 .section-title {
     font-size: 32px;
     font-weight: 600;
-    color: #333;
+    color: white;
     margin-bottom: 20px;
 }
 
 .description {
     font-size: 18px;
     font-weight: 300;
-    color: #555;
+    color: white;
     margin-bottom: 30px;
 }
 
@@ -66,12 +67,12 @@ header {
 .contact-section h3 {
     font-size: 24px;
     font-weight: 600;
-    color: #333;
+    color: white;
 }
 
 .contact-section p {
     font-size: 16px;
-    color: #555;
+    color: white;
 }
 
 .message-telegram {
@@ -94,7 +95,7 @@ header {
 .features {
     margin-top: 60px;
     padding: 40px;
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: rgba(255, 255, 255, 0.1); /* Slightly transparent white */
     border-radius: 20px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
@@ -106,7 +107,7 @@ header {
 }
 
 .card {
-    background-color: #f9f9f9;
+    background-color: rgba(255, 255, 255, 0.1); /* Slightly transparent white */
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
@@ -115,26 +116,26 @@ header {
 .card h3 {
     font-size: 20px;
     font-weight: 600;
-    color: #333;
+    color: white;
     margin-bottom: 10px;
 }
 
 .card p {
     font-size: 16px;
-    color: #555;
+    color: white;
 }
 
 /* Footer */
 footer {
     margin-top: 50px;
     padding: 20px;
-    background-color: rgba(0, 0, 0, 0.1);
-    color: #333;
+    background-color: rgba(0, 0, 0, 0.2);
+    color: white;
     text-align: center;
     border-radius: 10px;
 }
 
 footer p {
     font-size: 14px;
-    color: #555;
+    color: white;
 }
